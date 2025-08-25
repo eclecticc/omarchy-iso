@@ -6,7 +6,7 @@ pacman-key --init
 pacman --noconfirm -Sy archlinux-keyring archiso sudo base-devel git
 
 # Packages needed for the Omarchy configurator (installer will fetch its own)
-arch_packages=(git gum openssl iw jq)
+arch_packages=(git gum openssl iw jq wireless-regdb)
 
 # We build our iso here
 cache_dir=$(realpath --canonicalize-missing ~/.cache/omarchy/iso_$(date +%Y-%m-%d))
