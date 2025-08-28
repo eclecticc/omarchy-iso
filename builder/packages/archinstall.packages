@@ -4,6 +4,7 @@ openssh
 htop
 wireless_tools
 wpa_supplicant
+wireless-regdb
 smartmontools
 xdg-utils
 dunst
